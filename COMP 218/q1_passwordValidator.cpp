@@ -44,7 +44,7 @@ int main()
 
 	// Print program title
 	cout << "------------------------------------------------------------ \n"
-		<< "          Welcome to Charles's Password Validator           \n"
+		<< "           Welcome to Charles's Password Validator           \n"
 		<< "------------------------------------------------------------ \n"
 		<< endl;
 
