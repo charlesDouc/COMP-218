@@ -61,7 +61,7 @@ int main()
 
 	// Print the second question and record user's input for one variable
 	cout << "OK - let\'s do it the other way now. \n"
-		<< "How many Knuts do you want to convert? ";
+		 << "How many Knuts do you want to convert? ";
 	cin >> totalKnuts;
 
 	// Do the math to detemine the total value in all currencies

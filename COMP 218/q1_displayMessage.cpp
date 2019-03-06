@@ -28,15 +28,15 @@ int main()
 
 	// Print a message in the console using only one cout
 	cout << "Welcome to my First C++ program! \n"
-		<< "\n"
-		<< "A \"quoted\" String is \n"
-		<< "\'much\' better if you learn \n"
-		<< "the rules of \"escape sequences.\" \n"
-		<< "Also, \"\" represents an empty String. \n"
-		<< "Dont't forget: use \\\" instead of \" ! \n"
-		<< "\'\' is not the same as \" \n"
-		<< "\n"
-		<< "Written by Charles. All Done!!!!" << endl;
+		 << "\n"
+		 << "A \"quoted\" String is \n"
+		 << "\'much\' better if you learn \n"
+		 << "the rules of \"escape sequences.\" \n"
+		 << "Also, \"\" represents an empty String. \n"
+		 << "Dont't forget: use \\\" instead of \" ! \n"
+		 << "\'\' is not the same as \" \n"
+		 << "\n"
+		 << "Written by Charles. All Done!!!!" << endl;
 
 
 	// Terminate the programm

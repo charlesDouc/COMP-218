@@ -44,9 +44,9 @@ int main()
 
 	// Print program title
 	cout << "--------------------------------------------------------------------- \n"
-		<< "                   Welcome to Charles\'s Word Coder                   \n"
-		<< "--------------------------------------------------------------------- \n"
-		<< endl;
+		 << "                   Welcome to Charles\'s Word Coder                   \n"
+		 << "--------------------------------------------------------------------- \n"
+		 << endl;
 
 
 	// Print the request to the user and record user's input into a variable
@@ -66,10 +66,10 @@ int main()
 
 	// Print feedback to the user and letters' information
 	cout << "The word you entered is " << userWord << " which has " << letterCount << " characters.\n"
-		<< "\t The 1st character is \'" << firstLetter << "\' \n"
-		<< "\t The middle character is \'" << midLetter << "\' \n"
-		<< "\t The last character is \'" << lastLetter << "\' \n"
-		<< endl;
+		 << "\t The 1st character is \'" << firstLetter << "\' \n"
+		 << "\t The middle character is \'" << midLetter << "\' \n"
+		 << "\t The last character is \'" << lastLetter << "\' \n"
+		 << endl;
 
 
 	// Change the value of each letter
@@ -83,17 +83,17 @@ int main()
 
 	// Print new value after the coding process
 	cout << "After the coding process...\n"
-		<< "\t The new second character is \'" << firstLetter << "\' \n"
-		<< "\t The new middle character is \'" << midLetter << "\' \n"
-		<< "\t The new before the last character is \'" << lastLetter << "\' \n"
-		<< endl;
+		 << "\t The new second character is \'" << firstLetter << "\' \n"
+		 << "\t The new middle character is \'" << midLetter << "\' \n"
+		 << "\t The new before the last character is \'" << lastLetter << "\' \n"
+		 << endl;
 
 	// Print the new word by inserting the new characters between the original string values
 	// The number of letter count (word lenght) is always +2 the original word.
 	cout << "The resulting word is \""
-		<< userWord.at(0) << char(firstLetter) << userWord.substr(1, letterCount - 2) << char(lastLetter) << userWord.at(letterCount - 1)
-		<< "\" which has " << letterCount + 2 << " characters. \n"
-		<< endl;
+		 << userWord.at(0) << char(firstLetter) << userWord.substr(1, letterCount - 2) << char(lastLetter) << userWord.at(letterCount - 1)
+		 << "\" which has " << letterCount + 2 << " characters. \n"
+		 << endl;
 
 	// Print the success message
 	cout << "Mission accomplished!!!" << endl;
