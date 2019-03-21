@@ -19,6 +19,9 @@
     <Filter Include="Source Files\Assignment 2">
       <UniqueIdentifier>{b6f69f88-2bc2-4b70-9533-88ed2e20ddb7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Assignment 3">
+      <UniqueIdentifier>{f79c545e-1fc5-46ac-bab0-2d032f513d12}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="q1_displayMessage.cpp">
@@ -30,14 +33,25 @@
     <ClCompile Include="q3_stringVariables.cpp">
       <Filter>Source Files\Assignment 1</Filter>
     </ClCompile>
-    <ClCompile Include="testZone.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="q1_passwordValidator.cpp">
       <Filter>Source Files\Assignment 2</Filter>
     </ClCompile>
     <ClCompile Include="q2_tennisGameSimulation.cpp">
       <Filter>Source Files\Assignment 2</Filter>
     </ClCompile>
+    <ClCompile Include="q1_textReverser.cpp">
+      <Filter>Source Files\Assignment 3</Filter>
+    </ClCompile>
+    <ClCompile Include="q2_patternDrawer.cpp">
+      <Filter>Source Files\Assignment 3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="A3Q3.dat">
+      <Filter>Source Files\Assignment 3</Filter>
+    </None>
+    <None Include="A3Q3.out">
+      <Filter>Source Files\Assignment 3</Filter>
+    </None>
   </ItemGroup>
 </Project>

@@ -23,8 +23,8 @@
 
 
 // Iclude the library and namespace to use cout
-#include <iostream>
-#include <string>
+#include <iostream>										// cout, cin
+#include <string>										// string
 using namespace std;
 
 int main()

@@ -1,3 +1,2 @@
-﻿  q2_tennisGameSimulation.cpp
-c:\users\charles\documents\github\comp-218\comp 218\q2_tennisgamesimulation.cpp(64): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+﻿  q2_patternDrawer.cpp
   COMP 218.vcxproj -> C:\Users\Charles\Documents\GitHub\COMP-218\Debug\COMP 218.exe

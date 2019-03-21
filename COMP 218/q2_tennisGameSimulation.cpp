@@ -27,10 +27,10 @@
 // -----------------------------------------------------
 
 // Iclude the library and namespace to use cout
-#include <iostream>		// cout, cin
-#include <string>		// string
-#include <cstdlib> 		// rand() and srand()
-#include <ctime> 		// time()
+#include <iostream>					// cout, cin
+#include <string>					// string
+#include <cstdlib> 					// rand() and srand()
+#include <ctime> 					// time()
 using namespace std;
 
 int main()
@@ -38,13 +38,15 @@ int main()
 	// Print developer's name
 	cout << "Initiate program. Made by Charles Doucet - 40031595 \n" << endl;
 
-	int chanceGiven;
-	int scoreA = 0;
-	int scoreB = 0;
-	int minScore = 4;
-	int randomNum;
-	bool gameSet = false;
-	string winner;
+
+	int chanceGiven;				// The percentage of chance given by the user
+	int scoreA = 0;					// The score of Player A
+	int scoreB = 0;					// The score of Player B
+	int minScore = 4;				// The minimum score to win a game
+	int randomNum;					// A random number generated 
+	bool gameSet = false;			// Bool to check if the game is over or not
+	string winner;					// Winner's name is placed into this string
+
 
 	// Print program title
 	cout << "------------------------------------------------------------ \n"
